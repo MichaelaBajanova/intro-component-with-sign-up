@@ -33,11 +33,29 @@
 	}
 }
 
-body {
-	margin: 0;
-	background-color: #ff7a7a;
-	background-image: url("./images/bg-intro-mobile.png");
-	color: #fff;
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+
+	body {
+		margin: 0;
+		background-color: #ff7a7a;
+		background-image: url("./images/bg-intro-mobile.png");
+		color: #fff;
+	}
+	
+	.main {
+		margin: 25px;
+	}
+	
+	.left-title {
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	
+	.left-title h1 {
+		margin: auto;
+		margin-bottom: 30px;
+		width: 60%;
+	}
 }
 
 body, input, .claim-trial-button {
